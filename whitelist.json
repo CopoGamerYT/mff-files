@@ -1,6 +1,7 @@
 {
     "global_staff": [
-	"ItsChesos"
+	"ItsChesos",
+	"DesigSerial_N"
   ],
   
     "servers": {
@@ -9,7 +10,7 @@
       "maintenance_mode": true,
       
         "whitelist": [
-		"DesigSerial_N"
+
 		]
     }
   }
