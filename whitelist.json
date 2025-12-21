@@ -5,12 +5,11 @@
   ],
   
     "servers": {
-    "pobresp": {
+    "pobrespinoff": {
       "block_launcher_if_not_whitelisted": true,
-      "maintenance_mode": true,
+      "maintenance_mode": false,
       
         "whitelist": [
-
 		]
     }
   }
