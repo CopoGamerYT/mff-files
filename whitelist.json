@@ -1,0 +1,17 @@
+{
+    "global_staff": [
+	"ItsChesos",
+	"PinguOfficial"	
+  ],
+  
+    "servers": {
+    "pobresp": {
+      "block_launcher_if_not_whitelisted": true,
+      "maintenance_mode": true,
+      
+        "whitelist": [
+		"DesigSerial_N"
+		]
+    }
+  }
+}
