@@ -8,16 +8,16 @@
   },
   "servers": [
     {
-      "id": "pobresp",
-      "name": "Pobresafio",
-      "description": "El spinoff que nadie pidio",
+      "id": "pobrespinoff",
+      "name": "PobreSafio",
+      "description": "El spin-off que nadie pidio pero aqui esta 🥀",
       "icon": "https://i.imgur.com/OG5AzdZ.png",
       "version": "1.0.0",
       "address": "localhost:25565",
-      "minecraftVersion": "1.20.1",
-       "discord": {
+      "minecraftVersion": "1.21.5",
+      "discord": {
         "shortId": "Pobresafio",
-        "largeImageText": "Jugando a PobreSafio SpinOff [1.20.1]",
+        "largeImageText": "Jugando a PobreSafio SpinOff [1.21.5]",
         "largeImageKey": "mfflogo"
       },
       "mainServer": false,
@@ -34,13 +34,13 @@
           },
           "subModules": [
             {
-              "id": "1.20.1-fabric-0.18.3",
+              "id": "1.21.5-fabric-0.18.3",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "971200af3c6a212e53b69eb562e50d3a",
-                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/versions/1.20.1-fabric-0.18.3/1.20.1-fabric-0.18.3.json"
+                "MD5": "53a1753d4226da564421187af255fe49",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/versions/1.21.5-fabric-0.18.3/1.21.5-fabric-0.18.3.json"
               }
             },
             {
@@ -104,13 +104,13 @@
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.20.1",
+              "id": "net.fabricmc:intermediary:1.21.5",
               "name": "Fabric (intermediary)",
               "type": "Library",
               "artifact": {
-                "size": 573365,
-                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                "size": 724686,
+                "MD5": "115c92c48d79d3996f7b3faab1c6aeb1",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/net/fabricmc/intermediary/1.21.5/intermediary-1.21.5.jar"
               }
             }
           ]
@@ -120,10 +120,65 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2465,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/drippyloadingscreen/options.txt",
-            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
+            "size": 162,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/drippyloadingscreen/options.txt",
+            "MD5": "422b46098fc009b4e6a0b1b16c61e17c",
             "path": "config/drippyloadingscreen/options.txt"
+          }
+        },
+        {
+          "id": "fondo.png",
+          "name": "fondo.png",
+          "type": "File",
+          "artifact": {
+            "size": 971270,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/fondo.png",
+            "MD5": "9bb5610f59f18479321e3fbcd9c16e1a",
+            "path": "config/fancymenu/assets/fondo.png"
+          }
+        },
+        {
+          "id": "logo15x.png",
+          "name": "logo15x.png",
+          "type": "File",
+          "artifact": {
+            "size": 794,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/logo15x.png",
+            "MD5": "effded306b4af61f12fd9b1e8983e93e",
+            "path": "config/fancymenu/assets/logo15x.png"
+          }
+        },
+        {
+          "id": "logo32.icns",
+          "name": "logo32.icns",
+          "type": "File",
+          "artifact": {
+            "size": 3111,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/logo32.icns",
+            "MD5": "140854f2bb7b28bf7b001af3008f419e",
+            "path": "config/fancymenu/assets/logo32.icns"
+          }
+        },
+        {
+          "id": "logo32.png",
+          "name": "logo32.png",
+          "type": "File",
+          "artifact": {
+            "size": 2259,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/logo32.png",
+            "MD5": "60758ebee47e4df83a67f92582f06d0f",
+            "path": "config/fancymenu/assets/logo32.png"
+          }
+        },
+        {
+          "id": "menu.gif",
+          "name": "menu.gif",
+          "type": "File",
+          "artifact": {
+            "size": 29503679,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/menu.gif",
+            "MD5": "67bd11b27efc4047956db8c82bf0edb5",
+            "path": "config/fancymenu/assets/menu.gif"
           }
         },
         {
@@ -132,7 +187,7 @@
           "type": "File",
           "artifact": {
             "size": 154688,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/assets/minecraft_title.png",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/minecraft_title.png",
             "MD5": "b3c61e69ec976df62dc452ab3c986b1c",
             "path": "config/fancymenu/assets/minecraft_title.png"
           }
@@ -143,9 +198,31 @@
           "type": "File",
           "artifact": {
             "size": 17196,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/assets/pn.png",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/pn.png",
             "MD5": "093435ab943d0c145ff14ddd81614c23",
             "path": "config/fancymenu/assets/pn.png"
+          }
+        },
+        {
+          "id": "selec.ogg",
+          "name": "selec.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 11838,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/selec.ogg",
+            "MD5": "c56ea852dba734c0559f20e4c0440c9f",
+            "path": "config/fancymenu/assets/selec.ogg"
+          }
+        },
+        {
+          "id": "ssalir.ogg",
+          "name": "ssalir.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 13909,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/ssalir.ogg",
+            "MD5": "03862b6c26c0811694e3102c23ab87a7",
+            "path": "config/fancymenu/assets/ssalir.ogg"
           }
         },
         {
@@ -154,7 +231,7 @@
           "type": "File",
           "artifact": {
             "size": 119955,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/assets/studios1.png",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/studios1.png",
             "MD5": "153e7062edf6e23dc8b014de8be37628",
             "path": "config/fancymenu/assets/studios1.png"
           }
@@ -165,7 +242,7 @@
           "type": "File",
           "artifact": {
             "size": 15938,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/assets/verde-29.png",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/verde-29.png",
             "MD5": "47afa2dabbd78a7805755657f3b8df31",
             "path": "config/fancymenu/assets/verde-29.png"
           }
@@ -176,7 +253,7 @@
           "type": "File",
           "artifact": {
             "size": 6717065,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/assets/wallpaper.png",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/assets/wallpaper.png",
             "MD5": "ebfa9082fd9ade9dcfaac67ba598d7fd",
             "path": "config/fancymenu/assets/wallpaper.png"
           }
@@ -186,9 +263,9 @@
           "name": "customizablemenus.txt",
           "type": "File",
           "artifact": {
-            "size": 215,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "a8fe695932e293133b6e61c53f98e4a5",
+            "size": 244,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "3e9dda73241e2540c7c20e02cb96b5b1",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -197,9 +274,9 @@
           "name": "drippy_loading_overlay_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 6902,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
-            "MD5": "029d4c11503d7fc7c1d488ac8900aeb9",
+            "size": 6158,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
+            "MD5": "fc5e4c7d9a1c019a9e7cece5941e03d4",
             "path": "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
           }
         },
@@ -208,9 +285,9 @@
           "name": "join_multiplayer_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 16146,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
-            "MD5": "e4609b044ecab83359d2ff54d4ad8a18",
+            "size": 15373,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
+            "MD5": "6fde78d8a68b007032ea8e0160508002",
             "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
           }
         },
@@ -219,9 +296,9 @@
           "name": "options_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 29199,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/customization/options_screen_layout.txt",
-            "MD5": "93f2d164f3d39e7d6aca19095273146c",
+            "size": 28545,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/customization/options_screen_layout.txt",
+            "MD5": "d7d03977b0a4d694a96ff3dca3794fe2",
             "path": "config/fancymenu/customization/options_screen_layout.txt"
           }
         },
@@ -230,9 +307,9 @@
           "name": "pause_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 22075,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/customization/pause_screen_layout.txt",
-            "MD5": "fe4f336e7cd32f3c6db3bc19835ce3b3",
+            "size": 23707,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/customization/pause_screen_layout.txt",
+            "MD5": "8b991e7a893a84e5023068eebf808946",
             "path": "config/fancymenu/customization/pause_screen_layout.txt"
           }
         },
@@ -241,9 +318,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 33819,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "d768eb8d460da83c7aebe37267952924",
+            "size": 32322,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "54d4e3dc75bc53bed929a3cda62db3af",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -253,7 +330,7 @@
           "type": "File",
           "artifact": {
             "size": 51,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/custom_gui_screens.txt",
             "MD5": "106e52948415f0879c53304f50783b28",
             "path": "config/fancymenu/custom_gui_screens.txt"
           }
@@ -264,7 +341,7 @@
           "type": "File",
           "artifact": {
             "size": 197,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
             "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
             "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
           }
@@ -275,7 +352,7 @@
           "type": "File",
           "artifact": {
             "size": 42,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/legacy_checklist.txt",
             "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
             "path": "config/fancymenu/legacy_checklist.txt"
           }
@@ -285,10 +362,21 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 2129,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/options.txt",
-            "MD5": "1a512d7875ba3c66df8d76d75b2c48a8",
+            "size": 2074,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/options.txt",
+            "MD5": "e7fc46c913acdcf36c86265d79edb299",
             "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "textos.txt",
+          "name": "textos.txt",
+          "type": "File",
+          "artifact": {
+            "size": 699,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/textos.txt",
+            "MD5": "1dade2130cb86ff0f972ea4dad4357c3",
+            "path": "config/fancymenu/textos.txt"
           }
         },
         {
@@ -296,9 +384,9 @@
           "name": "dark.json",
           "type": "File",
           "artifact": {
-            "size": 6218,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/ui_themes/dark.json",
-            "MD5": "df90c4d23315ff6e63e15541b3031197",
+            "size": 4133,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "3981f37966b00a80e31aac89169be280",
             "path": "config/fancymenu/ui_themes/dark.json"
           }
         },
@@ -307,9 +395,9 @@
           "name": "light.json",
           "type": "File",
           "artifact": {
-            "size": 6220,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/ui_themes/light.json",
-            "MD5": "21a51e7a223939c9fae277fcd02cf4fc",
+            "size": 4135,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "adfba137b3d62c50a5186a4f6523a72a",
             "path": "config/fancymenu/ui_themes/light.json"
           }
         },
@@ -319,416 +407,1252 @@
           "type": "File",
           "artifact": {
             "size": 23,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/fancymenu/user_variables.db",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/fancymenu/user_variables.db",
             "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "path": "config/fancymenu/user_variables.db"
           }
         },
         {
-          "id": "de_de.local",
-          "name": "de_de.local",
+          "id": "mcef.properties",
+          "name": "mcef.properties",
           "type": "File",
           "artifact": {
-            "size": 369,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/konkrete/locals/de_de.local",
-            "MD5": "3aac3df2519057d2305f894c37771e30",
-            "path": "config/konkrete/locals/de_de.local"
+            "size": 139,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/config/mcef/mcef.properties",
+            "MD5": "c2d8ea7171d413a58935406ce77ce92d",
+            "path": "config/mcef/mcef.properties"
           }
         },
         {
-          "id": "en_us.local",
-          "name": "en_us.local",
+          "id": "appleskin-fabric-mc1.21.5-3.0.6.jar",
+          "name": "appleskin-fabric-mc1.21.5-3.0.6.jar",
           "type": "File",
           "artifact": {
-            "size": 426,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/konkrete/locals/en_us.local",
-            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
-            "path": "config/konkrete/locals/en_us.local"
+            "size": 1096137,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/appleskin-fabric-mc1.21.5-3.0.6.jar",
+            "MD5": "fc02d374abceca214507d415283a9e2b",
+            "path": "mods/appleskin-fabric-mc1.21.5-3.0.6.jar"
           }
         },
         {
-          "id": "pl_pl.local",
-          "name": "pl_pl.local",
+          "id": "BetterF3-14.0.0-Fabric-1.21.5.jar",
+          "name": "BetterF3-14.0.0-Fabric-1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 313,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/konkrete/locals/pl_pl.local",
-            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
-            "path": "config/konkrete/locals/pl_pl.local"
+            "size": 1825102,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/BetterF3-14.0.0-Fabric-1.21.5.jar",
+            "MD5": "8077c927ba203aa197f5e13f79e0cc4b",
+            "path": "mods/BetterF3-14.0.0-Fabric-1.21.5.jar"
           }
         },
         {
-          "id": "pt_br.local",
-          "name": "pt_br.local",
+          "id": "BetterPingDisplay-Fabric-1.21.5-1.1.1.jar",
+          "name": "BetterPingDisplay-Fabric-1.21.5-1.1.1.jar",
           "type": "File",
           "artifact": {
-            "size": 322,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/konkrete/locals/pt_br.local",
-            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
-            "path": "config/konkrete/locals/pt_br.local"
+            "size": 14849,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/BetterPingDisplay-Fabric-1.21.5-1.1.1.jar",
+            "MD5": "9fbc94cc29b25e0bfe3146a7c5b64a66",
+            "path": "mods/BetterPingDisplay-Fabric-1.21.5-1.1.1.jar"
           }
         },
         {
-          "id": "client.json5",
-          "name": "client.json5",
+          "id": "BetterThirdPerson-fabric-1.21.5-1.9.0.jar",
+          "name": "BetterThirdPerson-fabric-1.21.5-1.9.0.jar",
           "type": "File",
           "artifact": {
-            "size": 2181,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/config/seriousplayeranimations/client.json5",
-            "MD5": "830fd7784ffb7e3129fefe830d7f1b3c",
-            "path": "config/seriousplayeranimations/client.json5"
+            "size": 53778,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/BetterThirdPerson-fabric-1.21.5-1.9.0.jar",
+            "MD5": "d40d1540f39f2df776b7f47e9af3d5f4",
+            "path": "mods/BetterThirdPerson-fabric-1.21.5-1.9.0.jar"
           }
         },
         {
-          "id": "almanac-1.20.x-fabric-1.0.2.jar",
-          "name": "almanac-1.20.x-fabric-1.0.2.jar",
+          "id": "ChatImpressiveAnimation-fabric-1.4.0+mc1.21.5.jar",
+          "name": "ChatImpressiveAnimation-fabric-1.4.0+mc1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 16082,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/almanac-1.20.x-fabric-1.0.2.jar",
-            "MD5": "e886ae479a10d261f2f29233ed0d2f83",
-            "path": "mods/almanac-1.20.x-fabric-1.0.2.jar"
+            "size": 66347,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/ChatImpressiveAnimation-fabric-1.4.0+mc1.21.5.jar",
+            "MD5": "de3a1d20a271d12f57349825e37f6aa6",
+            "path": "mods/ChatImpressiveAnimation-fabric-1.4.0+mc1.21.5.jar"
           }
         },
         {
-          "id": "appleskin-fabric-mc1.20.1-2.5.1.jar",
-          "name": "appleskin-fabric-mc1.20.1-2.5.1.jar",
+          "id": "chat_heads-0.14.2-fabric-1.21.5.jar",
+          "name": "chat_heads-0.14.2-fabric-1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 1064362,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/appleskin-fabric-mc1.20.1-2.5.1.jar",
-            "MD5": "723370be246a876144ae424cbbfd60f4",
-            "path": "mods/appleskin-fabric-mc1.20.1-2.5.1.jar"
+            "size": 80725,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/chat_heads-0.14.2-fabric-1.21.5.jar",
+            "MD5": "d84ef4351e53d57e9d89f8e51fc2b564",
+            "path": "mods/chat_heads-0.14.2-fabric-1.21.5.jar"
           }
         },
         {
-          "id": "BetterF3-7.0.2-Fabric-1.20.1.jar",
-          "name": "BetterF3-7.0.2-Fabric-1.20.1.jar",
+          "id": "cloth-config-18.0.145-fabric.jar",
+          "name": "cloth-config-18.0.145-fabric.jar",
           "type": "File",
           "artifact": {
-            "size": 1782676,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/BetterF3-7.0.2-Fabric-1.20.1.jar",
-            "MD5": "acda45b22c255f78f3242056b1221c8e",
-            "path": "mods/BetterF3-7.0.2-Fabric-1.20.1.jar"
+            "size": 1152219,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/cloth-config-18.0.145-fabric.jar",
+            "MD5": "0c076206786120a179fde7295eea7060",
+            "path": "mods/cloth-config-18.0.145-fabric.jar"
           }
         },
         {
-          "id": "BetterThirdPerson-Fabric-1.20-1.9.0.jar",
-          "name": "BetterThirdPerson-Fabric-1.20-1.9.0.jar",
+          "id": "CustomPlayerModels-Fabric-1.21.5-0.6.25a.jar",
+          "name": "CustomPlayerModels-Fabric-1.21.5-0.6.25a.jar",
           "type": "File",
           "artifact": {
-            "size": 55504,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/BetterThirdPerson-Fabric-1.20-1.9.0.jar",
-            "MD5": "abefae2dbfc50b8b180908e3c8933bb3",
-            "path": "mods/BetterThirdPerson-Fabric-1.20-1.9.0.jar"
+            "size": 2832437,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/CustomPlayerModels-Fabric-1.21.5-0.6.25a.jar",
+            "MD5": "97b346a85b096c863736470ce5bb7e23",
+            "path": "mods/CustomPlayerModels-Fabric-1.21.5-0.6.25a.jar"
           }
         },
         {
-          "id": "ChatImpressiveAnimation-fabric-1.4.0+mc1.20.4.jar",
-          "name": "ChatImpressiveAnimation-fabric-1.4.0+mc1.20.4.jar",
+          "id": "drippyloadingscreen_fabric_3.0.13_MC_1.21.5.jar",
+          "name": "drippyloadingscreen_fabric_3.0.13_MC_1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 65113,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/ChatImpressiveAnimation-fabric-1.4.0+mc1.20.4.jar",
-            "MD5": "fdbb3b5e1e67f187bdc0e58f55d21364",
-            "path": "mods/ChatImpressiveAnimation-fabric-1.4.0+mc1.20.4.jar"
+            "size": 231712,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/drippyloadingscreen_fabric_3.0.13_MC_1.21.5.jar",
+            "MD5": "ef18595a9c14c92ba53443b3435a8522",
+            "path": "mods/drippyloadingscreen_fabric_3.0.13_MC_1.21.5.jar"
           }
         },
         {
-          "id": "chat_heads-0.14.2-fabric-1.20.jar",
-          "name": "chat_heads-0.14.2-fabric-1.20.jar",
+          "id": "emotecraft-fabric-for-MC1.21.5-2.6.2.jar",
+          "name": "emotecraft-fabric-for-MC1.21.5-2.6.2.jar",
           "type": "File",
           "artifact": {
-            "size": 80747,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/chat_heads-0.14.2-fabric-1.20.jar",
-            "MD5": "571c0a5993d1693590e635ed2d4fba8f",
-            "path": "mods/chat_heads-0.14.2-fabric-1.20.jar"
+            "size": 1355985,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/emotecraft-fabric-for-MC1.21.5-2.6.2.jar",
+            "MD5": "9e5cd1984c8040c6488d85e22354b8bf",
+            "path": "mods/emotecraft-fabric-for-MC1.21.5-2.6.2.jar"
           }
         },
         {
-          "id": "cloth-config-11.1.136-fabric.jar",
-          "name": "cloth-config-11.1.136-fabric.jar",
+          "id": "entity_model_features_1.21.5-fabric-3.0.7.jar",
+          "name": "entity_model_features_1.21.5-fabric-3.0.7.jar",
           "type": "File",
           "artifact": {
-            "size": 1172214,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/cloth-config-11.1.136-fabric.jar",
-            "MD5": "45d8bada7797af61d1f5543313b1f9f0",
-            "path": "mods/cloth-config-11.1.136-fabric.jar"
+            "size": 480550,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/entity_model_features_1.21.5-fabric-3.0.7.jar",
+            "MD5": "4e6acde7cb35fabc8b33a1157e09fdd1",
+            "path": "mods/entity_model_features_1.21.5-fabric-3.0.7.jar"
           }
         },
         {
-          "id": "Clumps-fabric-1.20.1-12.0.0.4.jar",
-          "name": "Clumps-fabric-1.20.1-12.0.0.4.jar",
+          "id": "entity_texture_features_1.21.5-fabric-7.0.6.jar",
+          "name": "entity_texture_features_1.21.5-fabric-7.0.6.jar",
           "type": "File",
           "artifact": {
-            "size": 21987,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/Clumps-fabric-1.20.1-12.0.0.4.jar",
-            "MD5": "9bd27566262e06642637b78a6bc4fe8c",
-            "path": "mods/Clumps-fabric-1.20.1-12.0.0.4.jar"
+            "size": 755951,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/entity_texture_features_1.21.5-fabric-7.0.6.jar",
+            "MD5": "b6b824add88e15cfdc441259cc9f028f",
+            "path": "mods/entity_texture_features_1.21.5-fabric-7.0.6.jar"
           }
         },
         {
-          "id": "drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar",
-          "name": "drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar",
+          "id": "explosive-enhancement-1.3.0-1.21.4.jar",
+          "name": "explosive-enhancement-1.3.0-1.21.4.jar",
           "type": "File",
           "artifact": {
-            "size": 280441,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar",
-            "MD5": "7e325cfcd0c76986e64e19712df432b5",
-            "path": "mods/drippyloadingscreen_fabric_3.1.0_MC_1.20.1.jar"
+            "size": 119820,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/explosive-enhancement-1.3.0-1.21.4.jar",
+            "MD5": "036b5412846bc73e757a5d89ce87fec8",
+            "path": "mods/explosive-enhancement-1.3.0-1.21.4.jar"
           }
         },
         {
-          "id": "entityculling-fabric-1.9.4-mc1.20.1.jar",
-          "name": "entityculling-fabric-1.9.4-mc1.20.1.jar",
+          "id": "fabric-api-0.128.2+1.21.5.jar",
+          "name": "fabric-api-0.128.2+1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 1560625,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/entityculling-fabric-1.9.4-mc1.20.1.jar",
-            "MD5": "d4eaebf6e19c9ebeede527c1347322d8",
-            "path": "mods/entityculling-fabric-1.9.4-mc1.20.1.jar"
+            "size": 2248994,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/fabric-api-0.128.2+1.21.5.jar",
+            "MD5": "efcbc632e8c42c754f465472942896b8",
+            "path": "mods/fabric-api-0.128.2+1.21.5.jar"
           }
         },
         {
-          "id": "entity_model_features_1.20.1-fabric-3.0.7.jar",
-          "name": "entity_model_features_1.20.1-fabric-3.0.7.jar",
+          "id": "fancymenu_fabric_3.5.1_MC_1.21.5.jar",
+          "name": "fancymenu_fabric_3.5.1_MC_1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 475520,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/entity_model_features_1.20.1-fabric-3.0.7.jar",
-            "MD5": "0d673084d186f7bbbd69a51edb23b8b9",
-            "path": "mods/entity_model_features_1.20.1-fabric-3.0.7.jar"
+            "size": 3335311,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/fancymenu_fabric_3.5.1_MC_1.21.5.jar",
+            "MD5": "56d8d16e48d54d28eca04eb016539ffa",
+            "path": "mods/fancymenu_fabric_3.5.1_MC_1.21.5.jar"
           }
         },
         {
-          "id": "entity_texture_features_1.20.1-fabric-7.0.6.jar",
-          "name": "entity_texture_features_1.20.1-fabric-7.0.6.jar",
+          "id": "ForgeConfigAPIPort-v21.5.3-1.21.5-Fabric.jar",
+          "name": "ForgeConfigAPIPort-v21.5.3-1.21.5-Fabric.jar",
           "type": "File",
           "artifact": {
-            "size": 761884,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/entity_texture_features_1.20.1-fabric-7.0.6.jar",
-            "MD5": "441bdee910113a44436a0334d01398de",
-            "path": "mods/entity_texture_features_1.20.1-fabric-7.0.6.jar"
+            "size": 632191,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/ForgeConfigAPIPort-v21.5.3-1.21.5-Fabric.jar",
+            "MD5": "1dc866341709009b26e981e106501d66",
+            "path": "mods/ForgeConfigAPIPort-v21.5.3-1.21.5-Fabric.jar"
           }
         },
         {
-          "id": "fabric-api-0.92.6+1.20.1.jar",
-          "name": "fabric-api-0.92.6+1.20.1.jar",
+          "id": "healthindicatortxf-1.21.5-1.3.9-fabric.jar",
+          "name": "healthindicatortxf-1.21.5-1.3.9-fabric.jar",
           "type": "File",
           "artifact": {
-            "size": 2107873,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/fabric-api-0.92.6+1.20.1.jar",
-            "MD5": "3483560775f416a4c759535b898165a5",
-            "path": "mods/fabric-api-0.92.6+1.20.1.jar"
+            "size": 76505,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/healthindicatortxf-1.21.5-1.3.9-fabric.jar",
+            "MD5": "0c34787e460a6b3fad01dc05c87a0c70",
+            "path": "mods/healthindicatortxf-1.21.5-1.3.9-fabric.jar"
           }
         },
         {
-          "id": "fancymenu_fabric_3.8.1_MC_1.20.1.jar",
-          "name": "fancymenu_fabric_3.8.1_MC_1.20.1.jar",
+          "id": "immersivearmorhud-fabric-1.0.1-1.21.5.jar",
+          "name": "immersivearmorhud-fabric-1.0.1-1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 4472279,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/fancymenu_fabric_3.8.1_MC_1.20.1.jar",
-            "MD5": "352b70cfa9369147a1b0c435873bb1c0",
-            "path": "mods/fancymenu_fabric_3.8.1_MC_1.20.1.jar"
+            "size": 1005874,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/immersivearmorhud-fabric-1.0.1-1.21.5.jar",
+            "MD5": "eca5db655e954bc4f0e12ba99c63af9d",
+            "path": "mods/immersivearmorhud-fabric-1.0.1-1.21.5.jar"
           }
         },
         {
-          "id": "ferritecore-6.0.1-fabric.jar",
-          "name": "ferritecore-6.0.1-fabric.jar",
+          "id": "konkrete_fabric_1.9.11_MC_1.21.5.jar",
+          "name": "konkrete_fabric_1.9.11_MC_1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 125197,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/ferritecore-6.0.1-fabric.jar",
-            "MD5": "a19272e427f75fea59127de6610ea26b",
-            "path": "mods/ferritecore-6.0.1-fabric.jar"
+            "size": 665241,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/konkrete_fabric_1.9.11_MC_1.21.5.jar",
+            "MD5": "46a0407abe0886eba04d704492651aa9",
+            "path": "mods/konkrete_fabric_1.9.11_MC_1.21.5.jar"
           }
         },
         {
-          "id": "ImmediatelyFast-Fabric-1.5.3+1.20.4.jar",
-          "name": "ImmediatelyFast-Fabric-1.5.3+1.20.4.jar",
+          "id": "language-reload-1.7.5+1.21.5.jar",
+          "name": "language-reload-1.7.5+1.21.5.jar",
           "type": "File",
           "artifact": {
-            "size": 242879,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/ImmediatelyFast-Fabric-1.5.3+1.20.4.jar",
-            "MD5": "1c34ed239ffc6eebf749da48eeef940b",
-            "path": "mods/ImmediatelyFast-Fabric-1.5.3+1.20.4.jar"
+            "size": 74533,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/language-reload-1.7.5+1.21.5.jar",
+            "MD5": "48ff5ff88489264bf4ed2de0c972761e",
+            "path": "mods/language-reload-1.7.5+1.21.5.jar"
           }
         },
         {
-          "id": "konkrete_fabric_1.8.1_MC_1.20.1.jar",
-          "name": "konkrete_fabric_1.8.1_MC_1.20.1.jar",
+          "id": "000003.log",
+          "name": "000003.log",
           "type": "File",
           "artifact": {
-            "size": 892067,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/konkrete_fabric_1.8.1_MC_1.20.1.jar",
-            "MD5": "a816ca0f5272f0e60c745f7fe6bef1d6",
-            "path": "mods/konkrete_fabric_1.8.1_MC_1.20.1.jar"
+            "size": 0,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/000003.log",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "mods/mcef-cache/000003.log"
           }
         },
         {
-          "id": "letmedespawn-1.20.x-fabric-1.5.0.jar",
-          "name": "letmedespawn-1.20.x-fabric-1.5.0.jar",
+          "id": "CURRENT",
+          "name": "CURRENT",
           "type": "File",
           "artifact": {
-            "size": 14607,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/letmedespawn-1.20.x-fabric-1.5.0.jar",
-            "MD5": "5867dd7b448bbd6eaf76fb98dce2f084",
-            "path": "mods/letmedespawn-1.20.x-fabric-1.5.0.jar"
+            "size": 16,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/CURRENT",
+            "MD5": "46295cac801e5d4857d09837238a6394",
+            "path": "mods/mcef-cache/CURRENT"
           }
         },
         {
-          "id": "melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
-          "name": "melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+          "id": "LocalPrefs.json",
+          "name": "LocalPrefs.json",
           "type": "File",
           "artifact": {
-            "size": 39696,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
-            "MD5": "8095b46d324586b3cf3d2f5bffe8b417",
-            "path": "mods/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar"
+            "size": 607,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/LocalPrefs.json",
+            "MD5": "9acc4803d58cd925d2439236aae5e93f",
+            "path": "mods/mcef-cache/LocalPrefs.json"
           }
         },
         {
-          "id": "modernfix-fabric-5.25.2+mc1.20.1.jar",
-          "name": "modernfix-fabric-5.25.2+mc1.20.1.jar",
+          "id": "LOCK",
+          "name": "LOCK",
           "type": "File",
           "artifact": {
-            "size": 545175,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/modernfix-fabric-5.25.2+mc1.20.1.jar",
-            "MD5": "f4b88179db335a7e4f0234357b1a5ed1",
-            "path": "mods/modernfix-fabric-5.25.2+mc1.20.1.jar"
+            "size": 0,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/LOCK",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "mods/mcef-cache/LOCK"
           }
         },
         {
-          "id": "MouseTweaks-fabric-mc1.20-2.26.jar",
-          "name": "MouseTweaks-fabric-mc1.20-2.26.jar",
+          "id": "LOG",
+          "name": "LOG",
           "type": "File",
           "artifact": {
-            "size": 77943,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/MouseTweaks-fabric-mc1.20-2.26.jar",
-            "MD5": "3138c776d370c90603938eb54d17469a",
-            "path": "mods/MouseTweaks-fabric-mc1.20-2.26.jar"
+            "size": 340,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/LOG",
+            "MD5": "d34f76b6efc305744f6f7661ef2731c3",
+            "path": "mods/mcef-cache/LOG"
           }
         },
         {
-          "id": "notenoughanimations-fabric-1.11.1-mc1.20.1.jar",
-          "name": "notenoughanimations-fabric-1.11.1-mc1.20.1.jar",
+          "id": "LOG.old",
+          "name": "LOG.old",
           "type": "File",
           "artifact": {
-            "size": 1924462,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/notenoughanimations-fabric-1.11.1-mc1.20.1.jar",
-            "MD5": "9fcdab86e5ecf1edadc4c83b9d507291",
-            "path": "mods/notenoughanimations-fabric-1.11.1-mc1.20.1.jar"
+            "size": 337,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/LOG.old",
+            "MD5": "9f07902b82db95004cfdf15274316496",
+            "path": "mods/mcef-cache/LOG.old"
           }
         },
         {
-          "id": "player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
-          "name": "player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
+          "id": "MANIFEST-000001",
+          "name": "MANIFEST-000001",
           "type": "File",
           "artifact": {
-            "size": 181008,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/player-animation-lib-fabric-1.0.2-rc1+1.20.jar",
-            "MD5": "03dfb09aabe5c2c8167568cd5c32666b",
-            "path": "mods/player-animation-lib-fabric-1.0.2-rc1+1.20.jar"
+            "size": 41,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/MANIFEST-000001",
+            "MD5": "5af87dfd673ba2115e2fcf5cfdb727ab",
+            "path": "mods/mcef-cache/MANIFEST-000001"
           }
         },
         {
-          "id": "reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
-          "name": "reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+          "id": "Visited Links",
+          "name": "Visited Links",
           "type": "File",
           "artifact": {
-            "size": 77304,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
-            "MD5": "0db2ef332dd00de8c64e34f192317118",
-            "path": "mods/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar"
+            "size": 131072,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-cache/Visited%20Links",
+            "MD5": "b044c68f7dfeea4fe34a4d5bd3dd0569",
+            "path": "mods/mcef-cache/Visited Links"
           }
         },
         {
-          "id": "seriousplayeranimations-1.1.1.jar",
-          "name": "seriousplayeranimations-1.1.1.jar",
+          "id": "chrome_100_percent.pak",
+          "name": "chrome_100_percent.pak",
           "type": "File",
           "artifact": {
-            "size": 159669,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/seriousplayeranimations-1.1.1.jar",
-            "MD5": "390fee2f31082e84ff4fa9936f9396af",
-            "path": "mods/seriousplayeranimations-1.1.1.jar"
+            "size": 641674,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/chrome_100_percent.pak",
+            "MD5": "54563e9a40deb9c8d545847b4b4064d4",
+            "path": "mods/mcef-libraries/windows_amd64/chrome_100_percent.pak"
           }
         },
         {
-          "id": "sodium-fabric-0.5.13+mc1.20.1.jar",
-          "name": "sodium-fabric-0.5.13+mc1.20.1.jar",
+          "id": "chrome_200_percent.pak",
+          "name": "chrome_200_percent.pak",
           "type": "File",
           "artifact": {
-            "size": 971552,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/sodium-fabric-0.5.13+mc1.20.1.jar",
-            "MD5": "76e0349865f91f315aae087a6e88a84a",
-            "path": "mods/sodium-fabric-0.5.13+mc1.20.1.jar"
+            "size": 987729,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/chrome_200_percent.pak",
+            "MD5": "33c6e196e50f93d6647baf3a08d21de1",
+            "path": "mods/mcef-libraries/windows_amd64/chrome_200_percent.pak"
           }
         },
         {
-          "id": "sodiumdynamiclights-fabric-1.0.10-1.20.1.jar",
-          "name": "sodiumdynamiclights-fabric-1.0.10-1.20.1.jar",
+          "id": "chrome_elf.dll",
+          "name": "chrome_elf.dll",
           "type": "File",
           "artifact": {
-            "size": 652650,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/sodiumdynamiclights-fabric-1.0.10-1.20.1.jar",
-            "MD5": "a1b36ba87ada993c51fe5d38789d7504",
-            "path": "mods/sodiumdynamiclights-fabric-1.0.10-1.20.1.jar"
+            "size": 1392128,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/chrome_elf.dll",
+            "MD5": "852be8ba8051e06d6744c4bf5da0d22d",
+            "path": "mods/mcef-libraries/windows_amd64/chrome_elf.dll"
           }
         },
         {
-          "id": "sodiumextras-fabric-1.0.7-1.20.1.jar",
-          "name": "sodiumextras-fabric-1.0.7-1.20.1.jar",
+          "id": "d3dcompiler_47.dll",
+          "name": "d3dcompiler_47.dll",
           "type": "File",
           "artifact": {
-            "size": 630468,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/sodiumextras-fabric-1.0.7-1.20.1.jar",
-            "MD5": "2a4783798a52fe22c5f6476fc65c0ff1",
-            "path": "mods/sodiumextras-fabric-1.0.7-1.20.1.jar"
+            "size": 4916728,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/d3dcompiler_47.dll",
+            "MD5": "03a60a6652caf4f49ea5912ce4e1b33c",
+            "path": "mods/mcef-libraries/windows_amd64/d3dcompiler_47.dll"
           }
         },
         {
-          "id": "sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
-          "name": "sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+          "id": "icudtl.dat",
+          "name": "icudtl.dat",
           "type": "File",
           "artifact": {
-            "size": 657853,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
-            "MD5": "39dcf7865bc46eaf3d446da02b29c3c5",
-            "path": "mods/sodiumoptionsapi-fabric-1.0.10-1.20.1.jar"
+            "size": 10631872,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/icudtl.dat",
+            "MD5": "62880b7d351a9f547b62b8da6c97ce25",
+            "path": "mods/mcef-libraries/windows_amd64/icudtl.dat"
           }
         },
         {
-          "id": "CustomPlayerModels-Fabric-1.20-0.6.25a.jar",
-          "name": "CustomPlayerModels-Fabric-1.20-0.6.25a.jar",
+          "id": "jcef.dll",
+          "name": "jcef.dll",
           "type": "File",
           "artifact": {
-            "size": 2834332,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/CustomPlayerModels-Fabric-1.20-0.6.25a.jar",
-            "MD5": "2fe71521f19af9c844cda8f774091846",
-            "path": "mods/CustomPlayerModels-Fabric-1.20-0.6.25a.jar"
+            "size": 917504,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/jcef.dll",
+            "MD5": "48d9a71ae4f9f7e310ee66921e512079",
+            "path": "mods/mcef-libraries/windows_amd64/jcef.dll"
           }
         },
         {
-          "id": "Pehkui-3.8.3+1.14.4-1.21.jar",
-          "name": "Pehkui-3.8.3+1.14.4-1.21.jar",
+          "id": "jcef_helper.exe",
+          "name": "jcef_helper.exe",
           "type": "File",
           "artifact": {
-            "size": 555041,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/Pehkui-3.8.3+1.14.4-1.21.jar",
-            "MD5": "c28dbac324e13836c2c15e47bfcd9e45",
-            "path": "mods/Pehkui-3.8.3+1.14.4-1.21.jar"
+            "size": 585728,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/jcef_helper.exe",
+            "MD5": "834872a76a680ec4580d99014ed6a6b5",
+            "path": "mods/mcef-libraries/windows_amd64/jcef_helper.exe"
           }
         },
         {
-          "id": "voicechat-fabric-1.20.1-2.6.9.jar",
-          "name": "voicechat-fabric-1.20.1-2.6.9.jar",
+          "id": "libcef.dll",
+          "name": "libcef.dll",
           "type": "File",
           "artifact": {
-            "size": 5251539,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/mods/voicechat-fabric-1.20.1-2.6.9.jar",
-            "MD5": "3ea3cb88373890e1bc663d289fe737b0",
-            "path": "mods/voicechat-fabric-1.20.1-2.6.9.jar"
+            "size": 203074560,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/libcef.dll",
+            "MD5": "d07dfe69a58e1b0d6c1a336ebd716b09",
+            "path": "mods/mcef-libraries/windows_amd64/libcef.dll"
+          }
+        },
+        {
+          "id": "libEGL.dll",
+          "name": "libEGL.dll",
+          "type": "File",
+          "artifact": {
+            "size": 479744,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/libEGL.dll",
+            "MD5": "aabe9e398b4945ee49e3fca82e5ab7fb",
+            "path": "mods/mcef-libraries/windows_amd64/libEGL.dll"
+          }
+        },
+        {
+          "id": "libGLESv2.dll",
+          "name": "libGLESv2.dll",
+          "type": "File",
+          "artifact": {
+            "size": 7426048,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/libGLESv2.dll",
+            "MD5": "69d7d2c2a098b7d40e4f534ef6feb9e1",
+            "path": "mods/mcef-libraries/windows_amd64/libGLESv2.dll"
+          }
+        },
+        {
+          "id": "af.pak",
+          "name": "af.pak",
+          "type": "File",
+          "artifact": {
+            "size": 448548,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/af.pak",
+            "MD5": "b9a96905830c11164ecbe61a40927dc8",
+            "path": "mods/mcef-libraries/windows_amd64/locales/af.pak"
+          }
+        },
+        {
+          "id": "am.pak",
+          "name": "am.pak",
+          "type": "File",
+          "artifact": {
+            "size": 728556,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/am.pak",
+            "MD5": "26f2be8fddf06ca0fd59430b8515f269",
+            "path": "mods/mcef-libraries/windows_amd64/locales/am.pak"
+          }
+        },
+        {
+          "id": "ar.pak",
+          "name": "ar.pak",
+          "type": "File",
+          "artifact": {
+            "size": 801621,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ar.pak",
+            "MD5": "da392bd735cbd9cdb9e443a6f39278fd",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ar.pak"
+          }
+        },
+        {
+          "id": "bg.pak",
+          "name": "bg.pak",
+          "type": "File",
+          "artifact": {
+            "size": 828271,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/bg.pak",
+            "MD5": "de1c445aa9108e1a1f2660ed4d715b58",
+            "path": "mods/mcef-libraries/windows_amd64/locales/bg.pak"
+          }
+        },
+        {
+          "id": "bn.pak",
+          "name": "bn.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1067144,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/bn.pak",
+            "MD5": "20e0bffd7dfd47a8ed800edcedfb4685",
+            "path": "mods/mcef-libraries/windows_amd64/locales/bn.pak"
+          }
+        },
+        {
+          "id": "ca.pak",
+          "name": "ca.pak",
+          "type": "File",
+          "artifact": {
+            "size": 512687,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ca.pak",
+            "MD5": "fb49eda55e2895bc0f7b97790caf0187",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ca.pak"
+          }
+        },
+        {
+          "id": "cs.pak",
+          "name": "cs.pak",
+          "type": "File",
+          "artifact": {
+            "size": 520342,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/cs.pak",
+            "MD5": "441f7180892855958f5a84cea4be9e25",
+            "path": "mods/mcef-libraries/windows_amd64/locales/cs.pak"
+          }
+        },
+        {
+          "id": "da.pak",
+          "name": "da.pak",
+          "type": "File",
+          "artifact": {
+            "size": 473540,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/da.pak",
+            "MD5": "6de3d0c003302ab63f1cd4e4a8def111",
+            "path": "mods/mcef-libraries/windows_amd64/locales/da.pak"
+          }
+        },
+        {
+          "id": "de.pak",
+          "name": "de.pak",
+          "type": "File",
+          "artifact": {
+            "size": 510384,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/de.pak",
+            "MD5": "01fd82fbb7e9da70bd3a59d06c36b6e5",
+            "path": "mods/mcef-libraries/windows_amd64/locales/de.pak"
+          }
+        },
+        {
+          "id": "el.pak",
+          "name": "el.pak",
+          "type": "File",
+          "artifact": {
+            "size": 907221,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/el.pak",
+            "MD5": "63666b0ac1668920eac108970ffdfeda",
+            "path": "mods/mcef-libraries/windows_amd64/locales/el.pak"
+          }
+        },
+        {
+          "id": "en-GB.pak",
+          "name": "en-GB.pak",
+          "type": "File",
+          "artifact": {
+            "size": 410859,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/en-GB.pak",
+            "MD5": "c2974f708589c0c703ad06a7f8b7ada5",
+            "path": "mods/mcef-libraries/windows_amd64/locales/en-GB.pak"
+          }
+        },
+        {
+          "id": "en-US.pak",
+          "name": "en-US.pak",
+          "type": "File",
+          "artifact": {
+            "size": 414207,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/en-US.pak",
+            "MD5": "d35ff435ff91254246ae63984230e4bf",
+            "path": "mods/mcef-libraries/windows_amd64/locales/en-US.pak"
+          }
+        },
+        {
+          "id": "es-419.pak",
+          "name": "es-419.pak",
+          "type": "File",
+          "artifact": {
+            "size": 501322,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/es-419.pak",
+            "MD5": "fd177446be4f90ef7f1135181ed4f2d8",
+            "path": "mods/mcef-libraries/windows_amd64/locales/es-419.pak"
+          }
+        },
+        {
+          "id": "es.pak",
+          "name": "es.pak",
+          "type": "File",
+          "artifact": {
+            "size": 500213,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/es.pak",
+            "MD5": "51f43d5762c7c866d684439783eac5a7",
+            "path": "mods/mcef-libraries/windows_amd64/locales/es.pak"
+          }
+        },
+        {
+          "id": "et.pak",
+          "name": "et.pak",
+          "type": "File",
+          "artifact": {
+            "size": 453907,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/et.pak",
+            "MD5": "eb85e0d2eef0b6a72a77e00efc9fab8e",
+            "path": "mods/mcef-libraries/windows_amd64/locales/et.pak"
+          }
+        },
+        {
+          "id": "fa.pak",
+          "name": "fa.pak",
+          "type": "File",
+          "artifact": {
+            "size": 738014,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/fa.pak",
+            "MD5": "8a40f31b0382e38519f3205dd7dddf90",
+            "path": "mods/mcef-libraries/windows_amd64/locales/fa.pak"
+          }
+        },
+        {
+          "id": "fi.pak",
+          "name": "fi.pak",
+          "type": "File",
+          "artifact": {
+            "size": 461841,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/fi.pak",
+            "MD5": "dbc419045ea8da89e58be7ebab55a68f",
+            "path": "mods/mcef-libraries/windows_amd64/locales/fi.pak"
+          }
+        },
+        {
+          "id": "fil.pak",
+          "name": "fil.pak",
+          "type": "File",
+          "artifact": {
+            "size": 522071,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/fil.pak",
+            "MD5": "ce10b19b85a5249c47768b1020f980ad",
+            "path": "mods/mcef-libraries/windows_amd64/locales/fil.pak"
+          }
+        },
+        {
+          "id": "fr.pak",
+          "name": "fr.pak",
+          "type": "File",
+          "artifact": {
+            "size": 543412,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/fr.pak",
+            "MD5": "6937405e2d7c55849e8ff85221fe215e",
+            "path": "mods/mcef-libraries/windows_amd64/locales/fr.pak"
+          }
+        },
+        {
+          "id": "gu.pak",
+          "name": "gu.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1049353,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/gu.pak",
+            "MD5": "f9f1db3e1259ecfe25d761e9bdf9a210",
+            "path": "mods/mcef-libraries/windows_amd64/locales/gu.pak"
+          }
+        },
+        {
+          "id": "he.pak",
+          "name": "he.pak",
+          "type": "File",
+          "artifact": {
+            "size": 650852,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/he.pak",
+            "MD5": "cca0375b68cad99b4f07dc244f54cc70",
+            "path": "mods/mcef-libraries/windows_amd64/locales/he.pak"
+          }
+        },
+        {
+          "id": "hi.pak",
+          "name": "hi.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1111685,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/hi.pak",
+            "MD5": "c09688a22c35bed688c3a02e4aa6aa18",
+            "path": "mods/mcef-libraries/windows_amd64/locales/hi.pak"
+          }
+        },
+        {
+          "id": "hr.pak",
+          "name": "hr.pak",
+          "type": "File",
+          "artifact": {
+            "size": 503048,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/hr.pak",
+            "MD5": "ae6140c8fa3599f620463962f44fc728",
+            "path": "mods/mcef-libraries/windows_amd64/locales/hr.pak"
+          }
+        },
+        {
+          "id": "hu.pak",
+          "name": "hu.pak",
+          "type": "File",
+          "artifact": {
+            "size": 540966,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/hu.pak",
+            "MD5": "5392805f843b028a732afdfc1bd15a7b",
+            "path": "mods/mcef-libraries/windows_amd64/locales/hu.pak"
+          }
+        },
+        {
+          "id": "id.pak",
+          "name": "id.pak",
+          "type": "File",
+          "artifact": {
+            "size": 444814,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/id.pak",
+            "MD5": "d290d5df9236644d274a53ede2d871d7",
+            "path": "mods/mcef-libraries/windows_amd64/locales/id.pak"
+          }
+        },
+        {
+          "id": "it.pak",
+          "name": "it.pak",
+          "type": "File",
+          "artifact": {
+            "size": 499414,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/it.pak",
+            "MD5": "3fec1cb4a0c0ecef5110cfa4117d6578",
+            "path": "mods/mcef-libraries/windows_amd64/locales/it.pak"
+          }
+        },
+        {
+          "id": "ja.pak",
+          "name": "ja.pak",
+          "type": "File",
+          "artifact": {
+            "size": 605481,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ja.pak",
+            "MD5": "40c270febd3d880e9499602510448648",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ja.pak"
+          }
+        },
+        {
+          "id": "kn.pak",
+          "name": "kn.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1198747,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/kn.pak",
+            "MD5": "942cde9c28b2a6e885e75c0f0d6cef85",
+            "path": "mods/mcef-libraries/windows_amd64/locales/kn.pak"
+          }
+        },
+        {
+          "id": "ko.pak",
+          "name": "ko.pak",
+          "type": "File",
+          "artifact": {
+            "size": 508040,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ko.pak",
+            "MD5": "793c1e298d9947652470d7a16cec29a9",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ko.pak"
+          }
+        },
+        {
+          "id": "lt.pak",
+          "name": "lt.pak",
+          "type": "File",
+          "artifact": {
+            "size": 548104,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/lt.pak",
+            "MD5": "a0daf1bf2d193f91c38e1c0b4f257c69",
+            "path": "mods/mcef-libraries/windows_amd64/locales/lt.pak"
+          }
+        },
+        {
+          "id": "lv.pak",
+          "name": "lv.pak",
+          "type": "File",
+          "artifact": {
+            "size": 545749,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/lv.pak",
+            "MD5": "d6a610eda95d980ee2c4697e55249402",
+            "path": "mods/mcef-libraries/windows_amd64/locales/lv.pak"
+          }
+        },
+        {
+          "id": "ml.pak",
+          "name": "ml.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1245018,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ml.pak",
+            "MD5": "d10c9d4b7c74d35ce1f41c5a396557b0",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ml.pak"
+          }
+        },
+        {
+          "id": "mr.pak",
+          "name": "mr.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1022262,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/mr.pak",
+            "MD5": "a4e6ff02c9f7cef68b9a3e72f433432c",
+            "path": "mods/mcef-libraries/windows_amd64/locales/mr.pak"
+          }
+        },
+        {
+          "id": "ms.pak",
+          "name": "ms.pak",
+          "type": "File",
+          "artifact": {
+            "size": 466528,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ms.pak",
+            "MD5": "9c97190c4e2e50ca13f22855d801dee9",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ms.pak"
+          }
+        },
+        {
+          "id": "nb.pak",
+          "name": "nb.pak",
+          "type": "File",
+          "artifact": {
+            "size": 454065,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/nb.pak",
+            "MD5": "aabdf57827a360ea4ca38f3a17653453",
+            "path": "mods/mcef-libraries/windows_amd64/locales/nb.pak"
+          }
+        },
+        {
+          "id": "nl.pak",
+          "name": "nl.pak",
+          "type": "File",
+          "artifact": {
+            "size": 468584,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/nl.pak",
+            "MD5": "0828495f57ec3b1593235b16e143347c",
+            "path": "mods/mcef-libraries/windows_amd64/locales/nl.pak"
+          }
+        },
+        {
+          "id": "pl.pak",
+          "name": "pl.pak",
+          "type": "File",
+          "artifact": {
+            "size": 525363,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/pl.pak",
+            "MD5": "658df8f1ae63405a1821aeabac17c7c2",
+            "path": "mods/mcef-libraries/windows_amd64/locales/pl.pak"
+          }
+        },
+        {
+          "id": "pt-BR.pak",
+          "name": "pt-BR.pak",
+          "type": "File",
+          "artifact": {
+            "size": 493272,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/pt-BR.pak",
+            "MD5": "1689a304ca09836866055f9c7973d743",
+            "path": "mods/mcef-libraries/windows_amd64/locales/pt-BR.pak"
+          }
+        },
+        {
+          "id": "pt-PT.pak",
+          "name": "pt-PT.pak",
+          "type": "File",
+          "artifact": {
+            "size": 495611,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/pt-PT.pak",
+            "MD5": "7ac8c079e11d6cfef62033aa89a979d1",
+            "path": "mods/mcef-libraries/windows_amd64/locales/pt-PT.pak"
+          }
+        },
+        {
+          "id": "ro.pak",
+          "name": "ro.pak",
+          "type": "File",
+          "artifact": {
+            "size": 512322,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ro.pak",
+            "MD5": "9ceebacdafa960bc7969724f9feceb21",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ro.pak"
+          }
+        },
+        {
+          "id": "ru.pak",
+          "name": "ru.pak",
+          "type": "File",
+          "artifact": {
+            "size": 839137,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ru.pak",
+            "MD5": "d9a421d32825d12eccbdc468e0eb5b6f",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ru.pak"
+          }
+        },
+        {
+          "id": "sk.pak",
+          "name": "sk.pak",
+          "type": "File",
+          "artifact": {
+            "size": 529118,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/sk.pak",
+            "MD5": "d4edf98371e5991ca8552500d5b95a8d",
+            "path": "mods/mcef-libraries/windows_amd64/locales/sk.pak"
+          }
+        },
+        {
+          "id": "sl.pak",
+          "name": "sl.pak",
+          "type": "File",
+          "artifact": {
+            "size": 508759,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/sl.pak",
+            "MD5": "3049cbabf6244f2568f3d0f8b088efc3",
+            "path": "mods/mcef-libraries/windows_amd64/locales/sl.pak"
+          }
+        },
+        {
+          "id": "sr.pak",
+          "name": "sr.pak",
+          "type": "File",
+          "artifact": {
+            "size": 781832,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/sr.pak",
+            "MD5": "2d1b04fd12951629e61241272f13e35f",
+            "path": "mods/mcef-libraries/windows_amd64/locales/sr.pak"
+          }
+        },
+        {
+          "id": "sv.pak",
+          "name": "sv.pak",
+          "type": "File",
+          "artifact": {
+            "size": 457916,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/sv.pak",
+            "MD5": "59775f95852b3c9223a0a738fe68f55e",
+            "path": "mods/mcef-libraries/windows_amd64/locales/sv.pak"
+          }
+        },
+        {
+          "id": "sw.pak",
+          "name": "sw.pak",
+          "type": "File",
+          "artifact": {
+            "size": 481027,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/sw.pak",
+            "MD5": "359648f47c3b1abeb9398f3eadca5186",
+            "path": "mods/mcef-libraries/windows_amd64/locales/sw.pak"
+          }
+        },
+        {
+          "id": "ta.pak",
+          "name": "ta.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1235462,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ta.pak",
+            "MD5": "8832385895d10d4768196321504de4e9",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ta.pak"
+          }
+        },
+        {
+          "id": "te.pak",
+          "name": "te.pak",
+          "type": "File",
+          "artifact": {
+            "size": 1141161,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/te.pak",
+            "MD5": "7ea295f0fb2581922f5a723bc72a323a",
+            "path": "mods/mcef-libraries/windows_amd64/locales/te.pak"
+          }
+        },
+        {
+          "id": "th.pak",
+          "name": "th.pak",
+          "type": "File",
+          "artifact": {
+            "size": 961725,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/th.pak",
+            "MD5": "fdb6be97f8bb46a566d67b3d51227525",
+            "path": "mods/mcef-libraries/windows_amd64/locales/th.pak"
+          }
+        },
+        {
+          "id": "tr.pak",
+          "name": "tr.pak",
+          "type": "File",
+          "artifact": {
+            "size": 491045,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/tr.pak",
+            "MD5": "99300a19a7c9d68680b68a43c29acd5b",
+            "path": "mods/mcef-libraries/windows_amd64/locales/tr.pak"
+          }
+        },
+        {
+          "id": "uk.pak",
+          "name": "uk.pak",
+          "type": "File",
+          "artifact": {
+            "size": 837359,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/uk.pak",
+            "MD5": "8cf54bc0b965022878aaf2d3c88cefb8",
+            "path": "mods/mcef-libraries/windows_amd64/locales/uk.pak"
+          }
+        },
+        {
+          "id": "ur.pak",
+          "name": "ur.pak",
+          "type": "File",
+          "artifact": {
+            "size": 728955,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/ur.pak",
+            "MD5": "509eb3b0cfcc5b3fb51488d053b7aca8",
+            "path": "mods/mcef-libraries/windows_amd64/locales/ur.pak"
+          }
+        },
+        {
+          "id": "vi.pak",
+          "name": "vi.pak",
+          "type": "File",
+          "artifact": {
+            "size": 581110,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/vi.pak",
+            "MD5": "0dc7ccc563917c7f65101c64d0493052",
+            "path": "mods/mcef-libraries/windows_amd64/locales/vi.pak"
+          }
+        },
+        {
+          "id": "zh-CN.pak",
+          "name": "zh-CN.pak",
+          "type": "File",
+          "artifact": {
+            "size": 421024,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/zh-CN.pak",
+            "MD5": "d218fe6db6ada9e893e70a46d5db4ed2",
+            "path": "mods/mcef-libraries/windows_amd64/locales/zh-CN.pak"
+          }
+        },
+        {
+          "id": "zh-TW.pak",
+          "name": "zh-TW.pak",
+          "type": "File",
+          "artifact": {
+            "size": 419459,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/locales/zh-TW.pak",
+            "MD5": "d4577d07e04d7d2939010d0bd389ab02",
+            "path": "mods/mcef-libraries/windows_amd64/locales/zh-TW.pak"
+          }
+        },
+        {
+          "id": "resources.pak",
+          "name": "resources.pak",
+          "type": "File",
+          "artifact": {
+            "size": 7852060,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/resources.pak",
+            "MD5": "14e36372dfd58bd65f5728ab73ff480e",
+            "path": "mods/mcef-libraries/windows_amd64/resources.pak"
+          }
+        },
+        {
+          "id": "snapshot_blob.bin",
+          "name": "snapshot_blob.bin",
+          "type": "File",
+          "artifact": {
+            "size": 268644,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/snapshot_blob.bin",
+            "MD5": "7c0773c840ffe9ee9bb88315feb4a3f4",
+            "path": "mods/mcef-libraries/windows_amd64/snapshot_blob.bin"
+          }
+        },
+        {
+          "id": "v8_context_snapshot.bin",
+          "name": "v8_context_snapshot.bin",
+          "type": "File",
+          "artifact": {
+            "size": 584316,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/v8_context_snapshot.bin",
+            "MD5": "a299989aaea2ae89e69833e2e81b38bd",
+            "path": "mods/mcef-libraries/windows_amd64/v8_context_snapshot.bin"
+          }
+        },
+        {
+          "id": "vk_swiftshader.dll",
+          "name": "vk_swiftshader.dll",
+          "type": "File",
+          "artifact": {
+            "size": 4945408,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/vk_swiftshader.dll",
+            "MD5": "afae7385ef2d799cb0dcf5c571c2b4af",
+            "path": "mods/mcef-libraries/windows_amd64/vk_swiftshader.dll"
+          }
+        },
+        {
+          "id": "vk_swiftshader_icd.json",
+          "name": "vk_swiftshader_icd.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/vk_swiftshader_icd.json",
+            "MD5": "8642dd3a87e2de6e991fae08458e302b",
+            "path": "mods/mcef-libraries/windows_amd64/vk_swiftshader_icd.json"
+          }
+        },
+        {
+          "id": "vulkan-1.dll",
+          "name": "vulkan-1.dll",
+          "type": "File",
+          "artifact": {
+            "size": 929792,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64/vulkan-1.dll",
+            "MD5": "14ef304fe9e98ee480c10d39731c0833",
+            "path": "mods/mcef-libraries/windows_amd64/vulkan-1.dll"
+          }
+        },
+        {
+          "id": "windows_amd64.tar.gz.sha256",
+          "name": "windows_amd64.tar.gz.sha256",
+          "type": "File",
+          "artifact": {
+            "size": 314,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef-libraries/windows_amd64.tar.gz.sha256",
+            "MD5": "5b722be04afdf9c6c00520fc7ebe94e9",
+            "path": "mods/mcef-libraries/windows_amd64.tar.gz.sha256"
+          }
+        },
+        {
+          "id": "mcef_fabric_2.1.6_MC_1.21.5.jar",
+          "name": "mcef_fabric_2.1.6_MC_1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 228481,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/mcef_fabric_2.1.6_MC_1.21.5.jar",
+            "MD5": "ec891b1b62a556b80333777f269d255c",
+            "path": "mods/mcef_fabric_2.1.6_MC_1.21.5.jar"
+          }
+        },
+        {
+          "id": "melody_fabric_1.0.11_MC_1.21.5.jar",
+          "name": "melody_fabric_1.0.11_MC_1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 188045,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/melody_fabric_1.0.11_MC_1.21.5.jar",
+            "MD5": "3830e26b463487b7250d87ecfb3c67a9",
+            "path": "mods/melody_fabric_1.0.11_MC_1.21.5.jar"
+          }
+        },
+        {
+          "id": "MouseTweaks-fabric-mc1.21.3-2.27.jar",
+          "name": "MouseTweaks-fabric-mc1.21.3-2.27.jar",
+          "type": "File",
+          "artifact": {
+            "size": 76225,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/MouseTweaks-fabric-mc1.21.3-2.27.jar",
+            "MD5": "8a1268311a2a34bd63fec02e699a5d51",
+            "path": "mods/MouseTweaks-fabric-mc1.21.3-2.27.jar"
+          }
+        },
+        {
+          "id": "NoFog-1.21.2-1.21.5.jar",
+          "name": "NoFog-1.21.2-1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5559,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/NoFog-1.21.2-1.21.5.jar",
+            "MD5": "1a0f2845d1eec314ab1966d7bb124e95",
+            "path": "mods/NoFog-1.21.2-1.21.5.jar"
+          }
+        },
+        {
+          "id": "notenoughanimations-fabric-1.11.1-mc1.21.5.jar",
+          "name": "notenoughanimations-fabric-1.11.1-mc1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1926341,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/notenoughanimations-fabric-1.11.1-mc1.21.5.jar",
+            "MD5": "d2e943205cf6db108257e6ed4c077f91",
+            "path": "mods/notenoughanimations-fabric-1.11.1-mc1.21.5.jar"
+          }
+        },
+        {
+          "id": "online-emotes-3.4.0+mc1.21.5-fabric.jar",
+          "name": "online-emotes-3.4.0+mc1.21.5-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1101959,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/online-emotes-3.4.0+mc1.21.5-fabric.jar",
+            "MD5": "856baf591c00d7aaca8338ca721f3925",
+            "path": "mods/online-emotes-3.4.0+mc1.21.5-fabric.jar"
+          }
+        },
+        {
+          "id": "plasmovoice-fabric-1.21.5-2.1.8.jar",
+          "name": "plasmovoice-fabric-1.21.5-2.1.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12184122,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/plasmovoice-fabric-1.21.5-2.1.8.jar",
+            "MD5": "808ca0ec608c4ac80d1da5f879d45bf4",
+            "path": "mods/plasmovoice-fabric-1.21.5-2.1.8.jar"
+          }
+        },
+        {
+          "id": "simpleresourceloader-1.0.0+1.21.1.jar",
+          "name": "simpleresourceloader-1.0.0+1.21.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15235,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/simpleresourceloader-1.0.0+1.21.1.jar",
+            "MD5": "5e9979638f8f526c331864a4994d9fe8",
+            "path": "mods/simpleresourceloader-1.0.0+1.21.1.jar"
+          }
+        },
+        {
+          "id": "sodium-fabric-0.6.13+mc1.21.5.jar",
+          "name": "sodium-fabric-0.6.13+mc1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1336477,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/sodium-fabric-0.6.13+mc1.21.5.jar",
+            "MD5": "d36008a72882b8ccef234e715cf1e785",
+            "path": "mods/sodium-fabric-0.6.13+mc1.21.5.jar"
+          }
+        },
+        {
+          "id": "sodiumdynamiclights-fabric-1.0.10-1.21.5.jar",
+          "name": "sodiumdynamiclights-fabric-1.0.10-1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 981684,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/sodiumdynamiclights-fabric-1.0.10-1.21.5.jar",
+            "MD5": "a3a1ad756392f90f183557f281a65f86",
+            "path": "mods/sodiumdynamiclights-fabric-1.0.10-1.21.5.jar"
+          }
+        },
+        {
+          "id": "txnilib-fabric-1.0.24-1.21.5.jar",
+          "name": "txnilib-fabric-1.0.24-1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1309416,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/txnilib-fabric-1.0.24-1.21.5.jar",
+            "MD5": "a56099cec5f35d02a46607c4afc6c212",
+            "path": "mods/txnilib-fabric-1.0.24-1.21.5.jar"
+          }
+        },
+        {
+          "id": "XaerosWorldMap_1.39.12_Fabric_1.21.5.jar",
+          "name": "XaerosWorldMap_1.39.12_Fabric_1.21.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 982232,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/mods/XaerosWorldMap_1.39.12_Fabric_1.21.5.jar",
+            "MD5": "46dbcb0ba61749f8f4e5059baa180b13",
+            "path": "mods/XaerosWorldMap_1.39.12_Fabric_1.21.5.jar"
           }
         },
         {
@@ -736,20 +1660,43 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 3657,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/options.txt",
+            "size": 5264,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/options.txt",
+            "MD5": "e03f9eab750af3da7af2f31f36abee85",
             "path": "options.txt"
           }
         },
         {
-          "id": "1.20 - 1.20.4 §eDedsafio 3 Vanilla §f- §6Club Pala.zip",
-          "name": "1.20 - 1.20.4 §eDedsafio 3 Vanilla §f- §6Club Pala.zip",
+          "id": "1.20.5+ §eDedsafio 3 Vanilla §f- §6Club Pala.zip",
+          "name": "1.20.5+ §eDedsafio 3 Vanilla §f- §6Club Pala.zip",
           "type": "File",
           "artifact": {
-            "size": 47944291,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/resourcepacks/1.20%20-%201.20.4%20%C2%A7eDedsafio%203%20Vanilla%20%C2%A7f-%20%C2%A76Club%20Pala.zip",
-            "MD5": "b3b25f508976880f279ff8f5c0d2578b",
-            "path": "resourcepacks/1.20 - 1.20.4 §eDedsafio 3 Vanilla §f- §6Club Pala.zip"
+            "size": 47944708,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/resourcepacks/1.20.5+%20%C2%A7eDedsafio%203%20Vanilla%20%C2%A7f-%20%C2%A76Club%20Pala.zip",
+            "MD5": "9aaf34e72a22444c50dfc228e04a22a3",
+            "path": "resourcepacks/1.20.5+ §eDedsafio 3 Vanilla §f- §6Club Pala.zip"
+          }
+        },
+        {
+          "id": "DetailedAnimationsTesterV0.13.zip",
+          "name": "DetailedAnimationsTesterV0.13.zip",
+          "type": "File",
+          "artifact": {
+            "size": 46600,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/resourcepacks/DetailedAnimationsTesterV0.13.zip",
+            "MD5": "737795629721e3fe0edcf750a5c542f9",
+            "path": "resourcepacks/DetailedAnimationsTesterV0.13.zip"
+          }
+        },
+        {
+          "id": "VanillaTweaks_r246801_MC1.21.x.zip",
+          "name": "VanillaTweaks_r246801_MC1.21.x.zip",
+          "type": "File",
+          "artifact": {
+            "size": 261856,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/resourcepacks/VanillaTweaks_r246801_MC1.21.x.zip",
+            "MD5": "c938a164bfa4e5bad7dcef49bb54fc5e",
+            "path": "resourcepacks/VanillaTweaks_r246801_MC1.21.x.zip"
           }
         },
         {
@@ -757,9 +1704,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 83,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobresp-1.20.1/files/servers.dat",
-            "MD5": "168d5bef03eb0e49da5e98ecba1c71ae",
+            "size": 92,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/pobrespinoff-1.21.5/files/servers.dat",
+            "MD5": "8869b07def004c76ac484e95251d1047",
             "path": "servers.dat"
           }
         }
