@@ -1710,6 +1710,654 @@
           }
         }
       ]
+    },
+    {
+      "id": "500days-1.21.11",
+      "name": "500days Harcore",
+      "description": "Ojala tan siquiera si puedan pasar de los 30 dias🥀",
+      "icon": "https://i.imgur.com/gbrZEgh.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.11",
+      "discord": {
+        "shortId": "500days",
+        "largeImageText": "Jugando a 500 days hardcore [1.21.11]",
+        "largeImageKey": "mfflogo"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.11-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2850,
+                "MD5": "8328054d40ac82df5ad0884c254d7eca",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/versions/1.21.11-fabric-0.18.4/1.21.11-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.11",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 797685,
+                "MD5": "54a87ea75e373bc39b2d36df201231ea",
+                "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/repo/lib/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2465,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/drippyloadingscreen/options.txt",
+            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
+            "path": "config/drippyloadingscreen/options.txt"
+          }
+        },
+        {
+          "id": "minecraft_title.png",
+          "name": "minecraft_title.png",
+          "type": "File",
+          "artifact": {
+            "size": 198787,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/assets/minecraft_title.png",
+            "MD5": "51c7d0e875a6449c4c29c994ab73bd42",
+            "path": "config/fancymenu/assets/minecraft_title.png"
+          }
+        },
+        {
+          "id": "pn.png",
+          "name": "pn.png",
+          "type": "File",
+          "artifact": {
+            "size": 17196,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/assets/pn.png",
+            "MD5": "093435ab943d0c145ff14ddd81614c23",
+            "path": "config/fancymenu/assets/pn.png"
+          }
+        },
+        {
+          "id": "selec.ogg",
+          "name": "selec.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 11838,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/assets/selec.ogg",
+            "MD5": "c56ea852dba734c0559f20e4c0440c9f",
+            "path": "config/fancymenu/assets/selec.ogg"
+          }
+        },
+        {
+          "id": "ssalir.ogg",
+          "name": "ssalir.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 13909,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/assets/ssalir.ogg",
+            "MD5": "03862b6c26c0811694e3102c23ab87a7",
+            "path": "config/fancymenu/assets/ssalir.ogg"
+          }
+        },
+        {
+          "id": "studios1.png",
+          "name": "studios1.png",
+          "type": "File",
+          "artifact": {
+            "size": 119955,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/assets/studios1.png",
+            "MD5": "153e7062edf6e23dc8b014de8be37628",
+            "path": "config/fancymenu/assets/studios1.png"
+          }
+        },
+        {
+          "id": "wallpaper.png",
+          "name": "wallpaper.png",
+          "type": "File",
+          "artifact": {
+            "size": 749814,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/assets/wallpaper.png",
+            "MD5": "f3b9e75348aa4e7eb1ca2ea1734009bc",
+            "path": "config/fancymenu/assets/wallpaper.png"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 278,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "6c602200047eebdf4e94b5a7cc378a6f",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "drippy_loading_overlay_layout.txt",
+          "name": "drippy_loading_overlay_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6877,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
+            "MD5": "2e4f509c96d3fc5313568c970942bc88",
+            "path": "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+          }
+        },
+        {
+          "id": "join_multiplayer_screen_layout.txt",
+          "name": "join_multiplayer_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 18335,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
+            "MD5": "8492fbcef8c8328399b7f970c5fc7b0d",
+            "path": "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+          }
+        },
+        {
+          "id": "options_screen_layout.txt",
+          "name": "options_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 31360,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customization/options_screen_layout.txt",
+            "MD5": "cf968598aa7d0753348c9ddf402eed27",
+            "path": "config/fancymenu/customization/options_screen_layout.txt"
+          }
+        },
+        {
+          "id": "pause_screen_layout.txt",
+          "name": "pause_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 22163,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customization/pause_screen_layout.txt",
+            "MD5": "bb3c8fc15b4839447b4272b3f192f9ee",
+            "path": "config/fancymenu/customization/pause_screen_layout.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 32635,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "0267d4b7545d42fc82710c21ee0f0d92",
+            "path": "config/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2129,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/options.txt",
+            "MD5": "1a512d7875ba3c66df8d76d75b2c48a8",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 6218,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "df90c4d23315ff6e63e15541b3031197",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 6220,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "21a51e7a223939c9fae277fcd02cf4fc",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "appleskin-fabric-mc1.21.11-3.0.7.jar",
+          "name": "appleskin-fabric-mc1.21.11-3.0.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 168688,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/appleskin-fabric-mc1.21.11-3.0.7.jar",
+            "MD5": "9cb27190b768a7f05b26924ece310055",
+            "path": "mods/appleskin-fabric-mc1.21.11-3.0.7.jar"
+          }
+        },
+        {
+          "id": "drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar",
+          "name": "drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 281928,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar",
+            "MD5": "8042232dcf944b08df4738e135fcc93e",
+            "path": "mods/drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar"
+          }
+        },
+        {
+          "id": "dynamic-fps-3.11.2+minecraft-1.21.11-fabric.jar",
+          "name": "dynamic-fps-3.11.2+minecraft-1.21.11-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 195474,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/dynamic-fps-3.11.2+minecraft-1.21.11-fabric.jar",
+            "MD5": "6d4c7d76e725f069a81e1c85c208eba1",
+            "path": "mods/dynamic-fps-3.11.2+minecraft-1.21.11-fabric.jar"
+          }
+        },
+        {
+          "id": "dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
+          "name": "dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
+          "type": "File",
+          "artifact": {
+            "size": 405957,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
+            "MD5": "0682f55a19380eef6bc85cfec486d38e",
+            "path": "mods/dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar"
+          }
+        },
+        {
+          "id": "entityculling-fabric-1.9.4-mc1.21.11.jar",
+          "name": "entityculling-fabric-1.9.4-mc1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1570475,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/entityculling-fabric-1.9.4-mc1.21.11.jar",
+            "MD5": "b6417101fc62460bcdd6bb8072a6ddfd",
+            "path": "mods/entityculling-fabric-1.9.4-mc1.21.11.jar"
+          }
+        },
+        {
+          "id": "entity_model_features_1.21.11-fabric-3.0.8.jar",
+          "name": "entity_model_features_1.21.11-fabric-3.0.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 493288,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/entity_model_features_1.21.11-fabric-3.0.8.jar",
+            "MD5": "041c726cf82198dec74e0172a119a3d9",
+            "path": "mods/entity_model_features_1.21.11-fabric-3.0.8.jar"
+          }
+        },
+        {
+          "id": "entity_texture_features_1.21.11-fabric-7.0.7.jar",
+          "name": "entity_texture_features_1.21.11-fabric-7.0.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 765778,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/entity_texture_features_1.21.11-fabric-7.0.7.jar",
+            "MD5": "7319a66f766be422fb0309887aabfb65",
+            "path": "mods/entity_texture_features_1.21.11-fabric-7.0.7.jar"
+          }
+        },
+        {
+          "id": "fabric-api-0.140.2+1.21.11.jar",
+          "name": "fabric-api-0.140.2+1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2388137,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/fabric-api-0.140.2+1.21.11.jar",
+            "MD5": "e2a72b6c6aa2c6c4f74541394858c86a",
+            "path": "mods/fabric-api-0.140.2+1.21.11.jar"
+          }
+        },
+        {
+          "id": "fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+          "name": "fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7618852,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar",
+            "MD5": "964103287b72e606de845420d1a8cc57",
+            "path": "mods/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar"
+          }
+        },
+        {
+          "id": "fancy-entity-renderer-fabric-1.21.11-0.5.1.jar",
+          "name": "fancy-entity-renderer-fabric-1.21.11-0.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 392705,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/fancy-entity-renderer-fabric-1.21.11-0.5.1.jar",
+            "MD5": "350435fafc5b0e1f04a81e5174949f74",
+            "path": "mods/fancy-entity-renderer-fabric-1.21.11-0.5.1.jar"
+          }
+        },
+        {
+          "id": "fancymenu_fabric_3.8.3_MC_1.21.11.jar",
+          "name": "fancymenu_fabric_3.8.3_MC_1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4488288,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/fancymenu_fabric_3.8.3_MC_1.21.11.jar",
+            "MD5": "ac66ad0cc5825ded7a015673b695c8ff",
+            "path": "mods/fancymenu_fabric_3.8.3_MC_1.21.11.jar"
+          }
+        },
+        {
+          "id": "ferritecore-8.0.3-fabric.jar",
+          "name": "ferritecore-8.0.3-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 77269,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/ferritecore-8.0.3-fabric.jar",
+            "MD5": "d11e2d40caff550c11e14d622dfe63cb",
+            "path": "mods/ferritecore-8.0.3-fabric.jar"
+          }
+        },
+        {
+          "id": "ImmediatelyFast-Fabric-1.14.1+1.21.11.jar",
+          "name": "ImmediatelyFast-Fabric-1.14.1+1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 308452,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/ImmediatelyFast-Fabric-1.14.1+1.21.11.jar",
+            "MD5": "82f68f961c4decf8fbe7d29f5c35f39c",
+            "path": "mods/ImmediatelyFast-Fabric-1.14.1+1.21.11.jar"
+          }
+        },
+        {
+          "id": "iris-fabric-1.10.4+mc1.21.11.jar",
+          "name": "iris-fabric-1.10.4+mc1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2795436,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/iris-fabric-1.10.4+mc1.21.11.jar",
+            "MD5": "697f2e0b37fa335a5a815237690466c9",
+            "path": "mods/iris-fabric-1.10.4+mc1.21.11.jar"
+          }
+        },
+        {
+          "id": "konkrete_fabric_1.9.14_MC_1.21.11.jar",
+          "name": "konkrete_fabric_1.9.14_MC_1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 660212,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/konkrete_fabric_1.9.14_MC_1.21.11.jar",
+            "MD5": "e94428d8cdca1795b951a9bf4673e5d6",
+            "path": "mods/konkrete_fabric_1.9.14_MC_1.21.11.jar"
+          }
+        },
+        {
+          "id": "lithium-fabric-0.21.2+mc1.21.11.jar",
+          "name": "lithium-fabric-0.21.2+mc1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 858481,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/lithium-fabric-0.21.2+mc1.21.11.jar",
+            "MD5": "922e63fbe89c5cd6550f0b5112c1c041",
+            "path": "mods/lithium-fabric-0.21.2+mc1.21.11.jar"
+          }
+        },
+        {
+          "id": "melody_fabric_1.0.15_MC_1.21.11.jar",
+          "name": "melody_fabric_1.0.15_MC_1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 227886,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/melody_fabric_1.0.15_MC_1.21.11.jar",
+            "MD5": "8b7f0aef2acc3c59d67f79809608b5a8",
+            "path": "mods/melody_fabric_1.0.15_MC_1.21.11.jar"
+          }
+        },
+        {
+          "id": "notenoughanimations-fabric-1.11.1-mc1.21.11.jar",
+          "name": "notenoughanimations-fabric-1.11.1-mc1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1932106,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/notenoughanimations-fabric-1.11.1-mc1.21.11.jar",
+            "MD5": "ab0f3b64ebd709dc927a51e1fcaae73c",
+            "path": "mods/notenoughanimations-fabric-1.11.1-mc1.21.11.jar"
+          }
+        },
+        {
+          "id": "reeses-sodium-options-fabric-2.0.2+mc1.21.11.jar",
+          "name": "reeses-sodium-options-fabric-2.0.2+mc1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 87207,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/reeses-sodium-options-fabric-2.0.2+mc1.21.11.jar",
+            "MD5": "a964ca79ed35ee285016bdc0c3f9cd09",
+            "path": "mods/reeses-sodium-options-fabric-2.0.2+mc1.21.11.jar"
+          }
+        },
+        {
+          "id": "sodium-fabric-0.8.2+mc1.21.11.jar",
+          "name": "sodium-fabric-0.8.2+mc1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1876396,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/sodium-fabric-0.8.2+mc1.21.11.jar",
+            "MD5": "48b94db165ff1d51c3aa440287dd8b7c",
+            "path": "mods/sodium-fabric-0.8.2+mc1.21.11.jar"
+          }
+        },
+        {
+          "id": "sound-physics-remastered-fabric-1.21.11-1.5.1.jar",
+          "name": "sound-physics-remastered-fabric-1.21.11-1.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 203479,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/sound-physics-remastered-fabric-1.21.11-1.5.1.jar",
+            "MD5": "25f7f6aa1930a9f9520fc17375313266",
+            "path": "mods/sound-physics-remastered-fabric-1.21.11-1.5.1.jar"
+          }
+        },
+        {
+          "id": "spiffyhud_fabric_3.1.1_MC_1.21.11.jar",
+          "name": "spiffyhud_fabric_3.1.1_MC_1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 841214,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/spiffyhud_fabric_3.1.1_MC_1.21.11.jar",
+            "MD5": "59ed9a4a5b69286cf3064eb19f45c75d",
+            "path": "mods/spiffyhud_fabric_3.1.1_MC_1.21.11.jar"
+          }
+        },
+        {
+          "id": "yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar",
+          "name": "yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1127252,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar",
+            "MD5": "85bc28b0d4420e05e542f39c5f4b5306",
+            "path": "mods/yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar"
+          }
+        },
+        {
+          "id": "Zoomify-2.14.6+1.21.11.jar",
+          "name": "Zoomify-2.14.6+1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1870555,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/Zoomify-2.14.6+1.21.11.jar",
+            "MD5": "5644d8b7b5ab70aa5b1187b36b08b9d5",
+            "path": "mods/Zoomify-2.14.6+1.21.11.jar"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5669,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "DetailedAnimationsTesterV0.13.zip",
+          "name": "DetailedAnimationsTesterV0.13.zip",
+          "type": "File",
+          "artifact": {
+            "size": 46600,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/resourcepacks/DetailedAnimationsTesterV0.13.zip",
+            "MD5": "737795629721e3fe0edcf750a5c542f9",
+            "path": "resourcepacks/DetailedAnimationsTesterV0.13.zip"
+          }
+        },
+        {
+          "id": "VanillaTweaks_r246801_MC1.21.x.zip",
+          "name": "VanillaTweaks_r246801_MC1.21.x.zip",
+          "type": "File",
+          "artifact": {
+            "size": 261856,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/resourcepacks/VanillaTweaks_r246801_MC1.21.x.zip",
+            "MD5": "c938a164bfa4e5bad7dcef49bb54fc5e",
+            "path": "resourcepacks/VanillaTweaks_r246801_MC1.21.x.zip"
+          }
+        },
+        {
+          "id": "BSL_v10.1p1.zip",
+          "name": "BSL_v10.1p1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1124713,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/shaderpacks/BSL_v10.1p1.zip",
+            "MD5": "6c9496c47902e6e072b71b8f199e97a0",
+            "path": "shaderpacks/BSL_v10.1p1.zip"
+          }
+        },
+        {
+          "id": "Mellow v2.2.1.zip",
+          "name": "Mellow v2.2.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 328845,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/shaderpacks/Mellow%20v2.2.1.zip",
+            "MD5": "2d6c1691bba0c891ae0fbfe25ecd529d",
+            "path": "shaderpacks/Mellow v2.2.1.zip"
+          }
+        }
+      ]
     }
   ]
 }
