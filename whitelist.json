@@ -30,6 +30,12 @@
 			"SasquahtGolden95",
 			"__Sandy_"
 	  ]
+    },
+	"500days-1.21.11": {
+      "block_launcher_if_not_whitelisted": true,
+      "maintenance_mode": false,
+      
+        "whitelist": []
     }
   }
 }
