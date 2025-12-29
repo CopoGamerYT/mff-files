@@ -1716,7 +1716,7 @@
       "name": "500days Harcore",
       "description": "Ojala tan siquiera si puedan pasar de los 30 dias🥀",
       "icon": "https://i.imgur.com/gbrZEgh.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.11",
       "discord": {
@@ -1903,7 +1903,7 @@
           "artifact": {
             "size": 278,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customizablemenus.txt",
-            "MD5": "6c602200047eebdf4e94b5a7cc378a6f",
+            "MD5": "222de8daa0f72583e96ec57a4b8734ec",
             "path": "config/fancymenu/customizablemenus.txt"
           }
         },
@@ -1945,9 +1945,9 @@
           "name": "pause_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 22163,
+            "size": 22144,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customization/pause_screen_layout.txt",
-            "MD5": "bb3c8fc15b4839447b4272b3f192f9ee",
+            "MD5": "a3517aebd5ae24558b1021659da5d4a6",
             "path": "config/fancymenu/customization/pause_screen_layout.txt"
           }
         },
@@ -1956,9 +1956,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 32635,
+            "size": 34820,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "0267d4b7545d42fc82710c21ee0f0d92",
+            "MD5": "41deeb941eebd37f11582dc09bd711ad",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -2051,6 +2051,28 @@
           }
         },
         {
+          "id": "BadOptimizations-2.4.1-1.21.11.jar",
+          "name": "BadOptimizations-2.4.1-1.21.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 269545,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/BadOptimizations-2.4.1-1.21.11.jar",
+            "MD5": "6d595f1312c0774158eefcaa06612286",
+            "path": "mods/BadOptimizations-2.4.1-1.21.11.jar"
+          }
+        },
+        {
+          "id": "Clumps-fabric-1.21.11-29.0.0.1.jar",
+          "name": "Clumps-fabric-1.21.11-29.0.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 20355,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/Clumps-fabric-1.21.11-29.0.0.1.jar",
+            "MD5": "ed4cfd8170d5eb8da20f424c8f1bd2cb",
+            "path": "mods/Clumps-fabric-1.21.11-29.0.0.1.jar"
+          }
+        },
+        {
           "id": "drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar",
           "name": "drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar",
           "type": "File",
@@ -2073,14 +2095,14 @@
           }
         },
         {
-          "id": "dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
-          "name": "dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
+          "id": "dynamic-light-0.6.3.jar",
+          "name": "dynamic-light-0.6.3.jar",
           "type": "File",
           "artifact": {
-            "size": 405957,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar",
-            "MD5": "0682f55a19380eef6bc85cfec486d38e",
-            "path": "mods/dynamiclights-v1.9.1-mc1.17-1.21.11-mod.jar"
+            "size": 13689,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/dynamic-light-0.6.3.jar",
+            "MD5": "8ea75a9b4186c5fc2cc64851d39a4d71",
+            "path": "mods/dynamic-light-0.6.3.jar"
           }
         },
         {
@@ -2205,14 +2227,14 @@
           }
         },
         {
-          "id": "lithium-fabric-0.21.2+mc1.21.11.jar",
-          "name": "lithium-fabric-0.21.2+mc1.21.11.jar",
+          "id": "lambdynamiclights-4.9.1+1.21.11.jar",
+          "name": "lambdynamiclights-4.9.1+1.21.11.jar",
           "type": "File",
           "artifact": {
-            "size": 858481,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/lithium-fabric-0.21.2+mc1.21.11.jar",
-            "MD5": "922e63fbe89c5cd6550f0b5112c1c041",
-            "path": "mods/lithium-fabric-0.21.2+mc1.21.11.jar"
+            "size": 2144865,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/lambdynamiclights-4.9.1+1.21.11.jar",
+            "MD5": "35d4fa10a0e9678d60022e73ae9fe814",
+            "path": "mods/lambdynamiclights-4.9.1+1.21.11.jar"
           }
         },
         {
@@ -2227,6 +2249,17 @@
           }
         },
         {
+          "id": "modmenu-17.0.0-beta.1.jar",
+          "name": "modmenu-17.0.0-beta.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1112540,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/modmenu-17.0.0-beta.1.jar",
+            "MD5": "92bc7bcaba409f52eacce8f10b72d827",
+            "path": "mods/modmenu-17.0.0-beta.1.jar"
+          }
+        },
+        {
           "id": "notenoughanimations-fabric-1.11.1-mc1.21.11.jar",
           "name": "notenoughanimations-fabric-1.11.1-mc1.21.11.jar",
           "type": "File",
@@ -2235,6 +2268,17 @@
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/notenoughanimations-fabric-1.11.1-mc1.21.11.jar",
             "MD5": "ab0f3b64ebd709dc927a51e1fcaae73c",
             "path": "mods/notenoughanimations-fabric-1.11.1-mc1.21.11.jar"
+          }
+        },
+        {
+          "id": "placeholder-api-2.8.1+1.21.10.jar",
+          "name": "placeholder-api-2.8.1+1.21.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 267926,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/placeholder-api-2.8.1+1.21.10.jar",
+            "MD5": "1627995de31167ebb185975e6c952eb9",
+            "path": "mods/placeholder-api-2.8.1+1.21.10.jar"
           }
         },
         {
@@ -2271,6 +2315,17 @@
           }
         },
         {
+          "id": "spark-1.10.156-fabric.jar",
+          "name": "spark-1.10.156-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3901887,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/spark-1.10.156-fabric.jar",
+            "MD5": "501ab5c543ca689b747d8ea389a3e1a4",
+            "path": "mods/spark-1.10.156-fabric.jar"
+          }
+        },
+        {
           "id": "spiffyhud_fabric_3.1.1_MC_1.21.11.jar",
           "name": "spiffyhud_fabric_3.1.1_MC_1.21.11.jar",
           "type": "File",
@@ -2282,14 +2337,14 @@
           }
         },
         {
-          "id": "yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar",
-          "name": "yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar",
+          "id": "waveycapes-fabric-1.8.1-mc1.21.11.jar",
+          "name": "waveycapes-fabric-1.8.1-mc1.21.11.jar",
           "type": "File",
           "artifact": {
-            "size": 1127252,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar",
-            "MD5": "85bc28b0d4420e05e542f39c5f4b5306",
-            "path": "mods/yet_another_config_lib_v3-3.8.1+1.21.11-fabric.jar"
+            "size": 1839655,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/mods/waveycapes-fabric-1.8.1-mc1.21.11.jar",
+            "MD5": "a42395a2e9e0615a1f363eb0db1e61b3",
+            "path": "mods/waveycapes-fabric-1.8.1-mc1.21.11.jar"
           }
         },
         {
@@ -2308,31 +2363,31 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5669,
+            "size": 5709,
             "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/options.txt",
             "path": "options.txt"
           }
         },
         {
-          "id": "DetailedAnimationsTesterV0.13.zip",
-          "name": "DetailedAnimationsTesterV0.13.zip",
+          "id": "VanillaTweaks_r571871_MC1.21.x.zip",
+          "name": "VanillaTweaks_r571871_MC1.21.x.zip",
           "type": "File",
           "artifact": {
-            "size": 46600,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/resourcepacks/DetailedAnimationsTesterV0.13.zip",
-            "MD5": "737795629721e3fe0edcf750a5c542f9",
-            "path": "resourcepacks/DetailedAnimationsTesterV0.13.zip"
+            "size": 2705940,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/resourcepacks/VanillaTweaks_r571871_MC1.21.x.zip",
+            "MD5": "9e11a0295a1786da4a23bf0904e08eb7",
+            "path": "resourcepacks/VanillaTweaks_r571871_MC1.21.x.zip"
           }
         },
         {
-          "id": "VanillaTweaks_r246801_MC1.21.x.zip",
-          "name": "VanillaTweaks_r246801_MC1.21.x.zip",
+          "id": "servers.dat",
+          "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 261856,
-            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/resourcepacks/VanillaTweaks_r246801_MC1.21.x.zip",
-            "MD5": "c938a164bfa4e5bad7dcef49bb54fc5e",
-            "path": "resourcepacks/VanillaTweaks_r246801_MC1.21.x.zip"
+            "size": 1369,
+            "url": "https://pub-4bc5b7fc9cdb4f3ca60fb262c2d003ce.r2.dev/MFFMCLauncher/servers/500days-1.21.11/files/servers.dat",
+            "MD5": "2dcb2e417240aed8b462b1fcbea7cd49",
+            "path": "servers.dat"
           }
         },
         {
