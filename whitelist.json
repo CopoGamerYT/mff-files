@@ -35,7 +35,10 @@
       "block_launcher_if_not_whitelisted": true,
       "maintenance_mode": false,
       
-        "whitelist": []
+        "whitelist": [
+			"ElemiEquisdexd",
+			"PinguOfficial"
+		]
     }
   }
 }
